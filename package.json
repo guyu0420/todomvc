@@ -5,6 +5,34 @@
     "todomvc-app-css": "^2.0.1"
   },
   "devDependencies": {
-    "jasmine-core": "^2.0.0"
-  }
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.11.1",
+    "jasmine-core": "^2.0.0",
+    "webpack": "^3.10.0"
+  },
+  "name": "todomvc_re",
+  "description": "> JavaScript® (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, most known as the scripting language for Web pages, but used in many non-browser environments as well such as node.js or Apache CouchDB.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "babel": "babel --presets es2015 js/app.js -o build/app.bundle.js",
+    "start": "http-server",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyu0420/todomvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guyu0420/todomvc/issues"
+  },
+  "homepage": "https://github.com/guyu0420/todomvc#readme"
 }
