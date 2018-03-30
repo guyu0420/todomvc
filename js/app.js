@@ -4,7 +4,10 @@ require('./model.js');
 require('./store.js');
 require('./template.js');
 require('./view.js');
-require('/Users/Yu/todomvc_re/node_modules/todomvc-common/base.js');
+require('../node_modules/todomvc-common/base.js');
+
+require("../node_modules/todomvc-common/base.css");
+require("../node_modules/todomvc-app-css/index.css");
 /*global app, $on */
 (function () {
 	'use strict';
